@@ -25,7 +25,7 @@ os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 embeddings = download_hugging_face_embeddings()
 
 
-index_name = "medicalbot"
+index_name = "ayurvedabot"
 
 # Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = PineconeVectorStore.from_existing_index(
